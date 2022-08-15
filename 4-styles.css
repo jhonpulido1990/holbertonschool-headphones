@@ -568,3 +568,116 @@
       .section-what-we-do .row {
         flex-direction: row-reverse;
       }
+
+  /* Section our results
+      ============================= */
+
+      @media screen and (max-width: 500px) {
+        .section-our-results .row {
+          display: block;
+          text-align: center;
+          /* background-color: yellow; */
+        }
+      }
+      
+      .section-our-results .row {
+        flex-direction: row-reverse;
+      }
+
+      .section-our-results {
+        background-image: url(images/headphones_hero_2.jpg);
+        color: white;
+      }
+
+      .section-our-results a {
+        color: white;
+      }
+
+      .contact {
+  margin-bottom: 6rem;
+}
+
+/*   CONTACT SECTION   */
+
+.contact-form-field {
+  position: relative;
+  padding: 18px 0 0;
+  margin-top: 19px;
+  width: 90vw;
+  margin-left: 2rem;
+  color: var(--color-primary);
+}
+
+.contact-form-field input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #d4d6da;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+ 
+.contact-form-field input::placeholder {
+  /* color: gray; */
+  color: transparent;
+}
+
+   /* CONTACT BUTTON */
+
+
+.contact button {
+  background-color: var(--color-primary);
+  padding: 1rem 2.5rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  font-size: var(--font-size);
+  margin-top: 5rem;
+  margin-left: 29%;
+  margin-right: 29%;
+}
+
+.footer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(images/headphones_hero_1.jpg);
+}
+
+.footer img {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 20%;
+}
+
+.social {
+  margin-right: 100px;
+  text-align: right;
+}
+
+.footer p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Section footer
+      ============================= */
+
+      @media screen and (max-width: 500px) {
+        .footer {
+          display: block;
+          /* text-align: center; */
+          /* background-color: yellow; */
+        }
+        .footer img {
+          margin-left: 200px;
+        }
+
+        .social {
+          text-align: center;
+          margin-left: 120px;
+        }
+      }

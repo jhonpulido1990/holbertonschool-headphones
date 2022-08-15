@@ -568,3 +568,27 @@
       .section-what-we-do .row {
         flex-direction: row-reverse;
       }
+
+  /* Section our results
+      ============================= */
+
+      @media screen and (max-width: 500px) {
+        .section-our-results .row {
+          display: block;
+          text-align: center;
+          /* background-color: yellow; */
+        }
+      }
+      
+      .section-our-results .row {
+        flex-direction: row-reverse;
+      }
+
+      .section-our-results {
+        background-image: url(images/headphones_hero_2.jpg);
+        color: white;
+      }
+
+      .section-our-results a {
+        color: white;
+      }

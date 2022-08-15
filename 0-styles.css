@@ -214,7 +214,7 @@ section .section-inner {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
     h2 {
     font-size: 17px;
   }
